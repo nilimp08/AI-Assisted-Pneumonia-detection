@@ -20,7 +20,8 @@ allows deep understanding even with a limited dataset.<br>
 horizontal flips to prevent overfitting and improve model robustness.<br>
 9.-Heatmaps: grad-CAM attention heatmaps.<br>
 10.Callbacks: Early Stopping, ReduceLROnPlateau, and ModelCheckpoint were used
-to optimize training and ensure the best model was saved.<br>
+to optimize training and ensure the best model was saved.
+
 ## Team Name
 **Compile N Pray**
 
