@@ -1,4 +1,23 @@
 # AI-Assisted-Pneumonia-detection
 AI system that looks at chest X-ray images and helps doctors detect pneumonia.
 ## Problem Statement
-Pneumonia causes 15% of deaths in children under 5 years old globally .Rapid and accurate diagnosis is critical, but expert radiologists are  often overworked, leading to delays. Thus a Computer vision model l is required that can act as a “second opinion” tool, automatically flagging Chest X-Rays that show signs of Pneumonia to prioritize them for a medical professional’s review.
+Pneumonia causes 15% of deaths in children under 5 years old globally .Rapid and accurate diagnosis is critical, but expert radiologists are  often overworked, leading to delays. Thus a Computer vision model is required that can act as a “second opinion” tool, automatically flagging Chest X-Rays that show signs of Pneumonia to prioritize them for a medical professional’s review.
+## Solution
+We built an AI system that acts as a second opinion. It classifies X-rays as normal, bacterial, or viral pneumonia, and highlights the infected region so doctors can verify the result. We prioritize recall to reduce false negatives, since missing a sick patient is worse than over-flagging.The 3-way classification approach provides more actionable
+insights for different treatment plans.
+## Tech Stack
+Tech Stack
+1.Language: Python 3.10
+2.Deep Learning Framework: TensorFlow / Keras
+3.Web Interface: Streamlit
+4.Image Processing: OpenCV, PIL Pillow, NumPy
+5.Visualization: Matplotlib, Seaborn
+6.Algorithms & libraries
+7.ResNet50 Utilized Transfer Learning with a pre-trained ResNet50 architecture
+(trained on ImageNet) to extract high-level features from X-ray images. This
+allows deep understanding even with a limited dataset.
+8.Data Augmentation: Implemented rotation, zoom, width/height shifts, and
+horizontal flips to prevent overfitting and improve model robustness.
+9.-Heatmaps: grad-CAM attention heatmaps.
+10.Callbacks: Early Stopping, ReduceLROnPlateau, and ModelCheckpoint were used
+to optimize training and ensure the best model was saved.
