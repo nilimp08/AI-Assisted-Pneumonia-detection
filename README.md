@@ -6,7 +6,7 @@ Pneumonia causes 15% of deaths in children under 5 years old globally .Rapid and
 We built an AI system that acts as a second opinion. It classifies X-rays as normal, bacterial, or viral pneumonia, and highlights the infected region so doctors can verify the result. We prioritize recall to reduce false negatives, since missing a sick patient is worse than over-flagging.The 3-way classification approach provides more actionable
 insights for different treatment plans.
 ## Tech Stack
-Tech Stack
+<br>
 1.Language: Python 3.10<br>
 2.Deep Learning Framework: TensorFlow / Keras<br>
 3.Web Interface: Streamlit<br>
