@@ -7,17 +7,17 @@ We built an AI system that acts as a second opinion. It classifies X-rays as nor
 insights for different treatment plans.
 ## Tech Stack
 Tech Stack
-1.Language: Python 3.10
-2.Deep Learning Framework: TensorFlow / Keras
-3.Web Interface: Streamlit
-4.Image Processing: OpenCV, PIL Pillow, NumPy
-5.Visualization: Matplotlib, Seaborn
-6.Algorithms & libraries
-7.ResNet50 Utilized Transfer Learning with a pre-trained ResNet50 architecture
+1.Language: Python 3.10<br>
+2.Deep Learning Framework: TensorFlow / Keras<br>
+3.Web Interface: Streamlit<br>
+4.Image Processing: OpenCV, PIL Pillow, NumPy<br>
+5.Visualization: Matplotlib, Seaborn<br>
+6.Algorithms & libraries<br>
+7.ResNet50 Utilized Transfer Learning with a pre-trained ResNet50 architecture<br>
 (trained on ImageNet) to extract high-level features from X-ray images. This
-allows deep understanding even with a limited dataset.
+allows deep understanding even with a limited dataset.<br>
 8.Data Augmentation: Implemented rotation, zoom, width/height shifts, and
-horizontal flips to prevent overfitting and improve model robustness.
-9.-Heatmaps: grad-CAM attention heatmaps.
+horizontal flips to prevent overfitting and improve model robustness.<br>
+9.-Heatmaps: grad-CAM attention heatmaps.<br>
 10.Callbacks: Early Stopping, ReduceLROnPlateau, and ModelCheckpoint were used
-to optimize training and ensure the best model was saved.
+to optimize training and ensure the best model was saved.<br>
