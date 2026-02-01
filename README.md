@@ -21,9 +21,11 @@ horizontal flips to prevent overfitting and improve model robustness.<br>
 9.-Heatmaps: grad-CAM attention heatmaps.<br>
 10.Callbacks: Early Stopping, ReduceLROnPlateau, and ModelCheckpoint were used
 to optimize training and ensure the best model was saved.<br>
-##Team Name
-**Compile N Pray
-##Team Members
-**Shivansh Sarawgi
-**Anusha Shree
-**Nilimp Sharma 
+## Team Name
+**Compile N Pray**
+
+## Team Members
+- **Shivansh Sarawgi**
+- **Anusha Shree**
+- **Nilimp Sharma**
+
